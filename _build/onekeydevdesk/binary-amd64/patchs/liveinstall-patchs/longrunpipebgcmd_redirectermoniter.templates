@@ -4,7 +4,7 @@ Description: parted,please wait ...
 
 Template: my_script/progress/wget
 Type: text
-Description: wget dd,please wait: ${STATUS}
+Description: install windows,please wait: ${STATUS}
 
 Template: my_script/progress/grub
 Type: text
