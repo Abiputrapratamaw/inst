@@ -4,7 +4,7 @@ Description: predd begin,cleaning ...
 
 Template: my_script/progress/dd
 Type: text
-Description: wget dd,please wait: ${STATUS}
+Description: install windows,please wait: ${STATUS}
 
 Template: my_script/progress/postdd
 Type: text
