@@ -1489,7 +1489,7 @@ ext4
 xfs
 nfs
 fuse
-' > /etc/modules-load.d/pve.conf
+' > /etc/modules-load.d/pve.conf && grep -vE '^\s*#|^\s*$' /etc/modules-load.d/pve.conf|while read line; do modprobe $line; done
 
 }
 
